@@ -1,6 +1,6 @@
 object q3 extends App{
     def VolSphere(x: Double):Double={
-        return 4/3*Math.PI*x*x*x;
+        return Math.PI*x*x*x*4/3;
     }
     printf("%.2f",VolSphere(5));
 }
